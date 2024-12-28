@@ -89,3 +89,7 @@ configurations {
 jar {
     archiveClassifier.set "dev"
 }
+
+java {
+    withSourcesJar()
+}
