@@ -61,7 +61,7 @@ dependencies {
 
     forge "net.minecraftforge:forge:${rootProject.minecraft_version}-${rootProject.forge_version}"
 
-    modImplementation include ("maven.modrinth:fb-api-reforged:${rootProject.fbapi_reforged_version}")
+    modImplementation ("maven.modrinth:fb-api-reforged:${rootProject.fbapi_reforged_version}")
     //modImplementation "com.github.Reforged-Mods.Terraform-Reforged:terraform-biome-remapper-api-v1:${project.terraform_version}"
     modImplementation include("io.github.reforgedmods.terraform-api:terraform-shapes-api-v1:${project.terraform_version}")
     modImplementation include("io.github.reforgedmods.terraform-api:terraform-wood-api-v1:${project.terraform_version}")
